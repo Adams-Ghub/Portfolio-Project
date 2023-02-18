@@ -31,14 +31,6 @@ body {
   margin-bottom: 22px;
 }
 
-.info-container > div > p {
-  color: #1a2236;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: -0.01em;
-  font-family: "Poppins", sans-serif;
-}
-
 .info-container > button {
   font-family: "poppins", sans-serif;
   width: 100%;
@@ -51,11 +43,6 @@ body {
   background-color: transparent;
 }
 
-.info-container > button:hover {
-  background-color: #1a2236;
-  color: #fff;
-}
-
 .material-icons {
   font-size: 26px;
   color: #1a2236;
@@ -63,6 +50,101 @@ body {
 
 .info-container {
   margin: 30px 16px 17px 16px;
+}
+
+.project-container > img {
+  width: 100vw;
+  margin: 0;
+}
+
+.work-section > h1 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  text-align: left;
+  margin-top: 42px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+
+.project-bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: #1a2236;
+  padding: 20px;
+  margin: 0;
+}
+
+.project-bottom-section > p {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.info-container > div > p {
+  color: #1a2236;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  font-family: "Poppins", sans-serif;
+}
+
+.languages-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.languages-container > div {
+  background-color: #98dede;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 80%;
+  color: #1a2236;
+  padding: 6px 10px;
+  margin-bottom: 20px;
+}
+
+#ruby-text {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.project-bottom-section > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 55vw;
+  padding: 10px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.info-container > button:hover {
+  background-color: #1a2236;
+  color: #fff;
+}
+
+.project-bottom-section > button > p {
+  margin: 0;
 }
 
 @media (min-width: 768px) {
