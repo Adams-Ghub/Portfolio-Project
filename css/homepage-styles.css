@@ -18,7 +18,6 @@ body {
 }
 
 .headline {
-  margin: 30px 16px 17px 16px;
   display: flex;
   flex-direction: column;
 }
@@ -62,6 +61,10 @@ body {
   color: #1a2236;
 }
 
+.info-container {
+  margin: 30px 16px 17px 16px;
+}
+
 @media (min-width: 768px) {
   .info-container > h1 {
     font-family: "Playfair Display", serif;
@@ -69,8 +72,14 @@ body {
   }
 
   .headline {
-    margin: 30px 16px 17px 16px;
     display: flex;
     flex-direction: row;
+  }
+
+  .info-container {
+    width: 40vw;
+  }
+  #mobile-image-section-one {
+    display: none;
   }
 }
