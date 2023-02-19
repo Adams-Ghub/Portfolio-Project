@@ -22,7 +22,7 @@ body {
   flex-direction: column;
 }
 
-.info-container > h1 {
+.title-text {
   font-family: "Playfair Display", serif;
   font-size: 50px;
   font-weight: 400;
@@ -31,7 +31,7 @@ body {
   margin-bottom: 22px;
 }
 
-.info-container > button {
+.primary-button {
   font-family: "poppins", sans-serif;
   width: 100%;
   height: 52px;
@@ -67,6 +67,7 @@ body {
   margin-top: 42px;
   margin-bottom: 32px;
   margin-left: 16px;
+  color: #1a2236;
 }
 
 .project-bottom-section {
@@ -88,7 +89,7 @@ body {
   color: #fff;
 }
 
-.info-container > div > p {
+.descriptive-text {
   color: #1a2236;
   font-size: 14px;
   line-height: 21px;
@@ -138,13 +139,51 @@ body {
   background-color: transparent;
 }
 
-.info-container > button:hover {
+.primary-button:hover {
   background-color: #1a2236;
   color: #fff;
 }
 
 .project-bottom-section > button > p {
   margin: 0;
+}
+
+.about-section {
+  margin: 0 16px;
+}
+
+#about-text {
+  margin-top: 56px;
+  margin-bottom: 20px;
+}
+
+#get-cv-btn {
+  margin-top: 32;
+  margin-bottom: 40px;
+}
+
+.skills-container,
+.framework-container,
+.about-languages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 289;
+  margin-bottom: 16px;
+}
+
+.skills-container {
+  background-color: #1c528a;
+}
+
+.framework-container {
+  background-color: #e2505c;
+}
+
+.about-languages-container {
+  background-color: #febf52;
 }
 
 @media (min-width: 768px) {
