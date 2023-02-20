@@ -4,6 +4,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .header-container {
@@ -60,12 +61,18 @@ body {
 }
 
 .project-container > img {
-  width: 100vw;
   margin: 0;
   padding: 0;
 }
 
-.work-section > h1 {
+.all-projects-container {
+  display: grid;
+  grid-template-columns: 375px;
+  grid-template-rows: 375px;
+  align-content: center;
+}
+
+.work-section > h2 {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: 400;
@@ -88,7 +95,7 @@ body {
   margin: 0;
 }
 
-.project-bottom-section > p {
+.project-bottom-section > h3 {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -137,9 +144,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin: 0;
+  padding: 0;
 }
 
-.languages-container > div {
+.languages-container > li {
+  list-style: none;
   background-color: #98dede;
   font-family: "poppins", sans-serif;
   font-style: normal;
@@ -156,7 +166,8 @@ body {
   margin-left: 10px;
 }
 
-.project-bottom-section > button {
+.project-bottom-section > a {
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -168,11 +179,36 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: #1a2236;
   border-style: solid;
   border-width: 1px;
   border-color: #fff;
+  background-color: #fff;
+}
+
+.project-bottom-section > a > i {
+  font-size: 20px;
+  color: #1a2236;
+}
+
+.project-bottom-section > a:hover {
   background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  color: #fff;
+}
+
+.project-bottom-section > a > i :hover * {
+  color: #fff;
+}
+
+.project-bottom-section > a:active {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  color: #fff;
 }
 
 .primary-button:hover {
@@ -180,11 +216,10 @@ body {
   color: #fff;
 }
 
-.project-bottom-section > button > p {
-  margin: 0;
-}
-
 .about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   margin: 0 16px;
 }
 
@@ -194,8 +229,37 @@ body {
 }
 
 #get-cv-btn {
+  font-family: "poppins", sans-serif;
+  width: 100%;
+  height: 52px;
+  font-size: 18px;
+  font-weight: 500px;
+  color: #1a2236;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1a2236;
+  background-color: #fff;
+  text-decoration: none;
   margin-top: 32;
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#get-cv-btn:hover {
+  background-color: #1a2236;
+  color: #fff;
+}
+
+#get-cv-btn > span {
+  color: #1a2236;
+  font-size: 30px;
+}
+
+#get-cv-btn > span:hover {
+  color: #fff;
 }
 
 .skills-container,
@@ -217,7 +281,7 @@ body {
   top: 50px;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 80%;
 }
 
 .skills-container > ul > li,
@@ -274,7 +338,7 @@ body {
   padding: 32px 16px 40px;
 }
 
-.get-resume-text {
+.get-resume-btn {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -288,6 +352,10 @@ body {
   align-items: center;
   width: 45vw;
   margin-bottom: 30px;
+}
+
+.get-resume-btn > img {
+  margin-left: 10px;
 }
 
 .footer-social-links {
