@@ -159,14 +159,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.languages-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin: 0;
-  padding: 0;
-}
-
 .languages-container > li {
   list-style: none;
   background-color: #98dede;
@@ -178,6 +170,7 @@ body {
   color: #1a2236;
   padding: 6px 10px;
   margin-bottom: 20px;
+  float: left;
 }
 
 #ruby-text {
