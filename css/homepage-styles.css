@@ -423,14 +423,14 @@ a > #icon-footer {
   width: 100%;
 }
 
-.contact-section{
+.contact-section {
   display: flex;
   flex-direction: column;
   background-color: #f9f9fa;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
-.loto{
+.loto {
   width: 111px;
   margin-top: -px;
 }
