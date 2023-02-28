@@ -127,7 +127,7 @@ body {
   margin: 0;
 }
 
-.input-and-text-container > p {
+.input-and-text-container > label {
   margin: 8px 0 0 0;
   font-family: "poppins", sans-serif;
   font-style: normal;
