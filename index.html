@@ -189,23 +189,23 @@
     </div>
   </section>
   <section class="contact-section">
-    <img src="./images/image_geometry_1.png" alt="" />
+    <img src="./images/image_geometry_1.png" alt="" class="loto"/>
     <div class="contact-form-info-container">
       <h2 class="title-text">Get started</h2>
       <p class="descriptive-text" id="contact-description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna.
       </p>
-      <form action="" method="post" class="contact-form">
+      <form action="https://formspree.io/f/mqkobewg" method="post" class="contact-form">
         <div class="input-and-text-container">
-          <p>Your name</p>
-          <input type="text" name="" id="" />
+          <label for="name">Your name</label>
+          <input type="text" name="name" id="name" maxlength="30" required placeholder="Enter your name here.." />
         </div>
         <div class="input-and-text-container">
-          <p>Your email</p>
-          <input type="email" name="" id="" />
+          <label for="email">Your email</label>
+          <input type="email" name="email" id="email" required placeholder="Enter your email here.." />
         </div>
-        <textarea name="" id="" placeholder="Enter your message here.."></textarea>
+        <textarea name="message" id="message" placeholder="Enter your message here.." maxlength="500" required></textarea>
 
         <button class="primary-button">start collaboration</button>
       </form>

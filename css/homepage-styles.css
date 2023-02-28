@@ -127,7 +127,7 @@ body {
   margin: 0;
 }
 
-.input-and-text-container > p {
+.input-and-text-container > label {
   margin: 8px 0 0 0;
   font-family: "poppins", sans-serif;
   font-style: normal;
@@ -421,6 +421,18 @@ a > #icon-footer {
   border-style: none;
   outline: none;
   width: 100%;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9fa;
+  margin-top: 0;
+}
+
+.loto {
+  width: 111px;
+  margin-top: -px;
 }
 
 @media (min-width: 768px) {
