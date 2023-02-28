@@ -423,6 +423,18 @@ a > #icon-footer {
   width: 100%;
 }
 
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9fa;
+  margin-top: 0px;
+}
+
+.loto{
+  width: 111px;
+  margin-top: -px;
+}
+
 @media (min-width: 768px) {
   .info-container > h1 {
     font-family: "Playfair Display", serif;
