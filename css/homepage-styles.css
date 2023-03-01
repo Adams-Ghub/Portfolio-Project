@@ -84,11 +84,13 @@ body {
   padding: 0;
 }
 
-.all-projects-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  align-content: center;
+#proj-one > img,
+#proj-two > img,
+#proj-three > img,
+#proj-four > img,
+#proj-five > img,
+#proj-six > img {
+  height: 44vw;
 }
 
 .work-section > h2 {
@@ -102,6 +104,13 @@ body {
   margin-bottom: 32px;
   margin-left: 16px;
   color: #1a2236;
+}
+
+.work-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-content: center;
 }
 
 .project-bottom-section {
@@ -547,12 +556,78 @@ a > #icon-footer {
   .info-container > button.primary-button {
     width: 17.6vw;
     font-size: 1.25vw;
-    /* padding: 1.5vw 1.73vw; */
   }
 
-  /* .all-projects-container {
+  .work-section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  } */
+    grid-template-columns: 11vw 11vw 11vw 11vw 11vw 11vw 11vw 11vw 11vw;
+    grid-template-rows: 11vw 11vw 11vw 5.5vw 11vw 5.5vw 5.5vw 11vw 11vw 11vw 11vw;
+    margin-top: 14.5vw;
+  }
+  .work-section > h2 {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    transform: rotate(-90deg);
+  }
+  #dot-matrix-work-section {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 11vw;
+  }
+
+  #proj-one {
+    grid-column: 4/10;
+    grid-row: 1/5;
+    height: 38.75vw;
+    width: 66.66vw;
+  }
+
+  .project-bottom-section {
+    display: none;
+  }
+
+  #geometry-image-two {
+    grid-column: 4/7;
+    grid-row: 5/8;
+    height: 22vw;
+    width: 33vw;
+  }
+  #proj-two {
+    grid-column: 1/4;
+    grid-row: 5/8;
+    height: 18.75vw;
+    align-self: flex-end;
+  }
+
+  #proj-two > img {
+    height: 18.75vw;
+  }
+
+  #proj-five {
+    grid-column: 7/9;
+    grid-row: 7/9;
+  }
+
+  #proj-five > img {
+    height: 17.2vw;
+    width: 32.3vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  #proj-six {
+    grid-column: 7/9;
+    grid-row: 5/7;
+  }
+
+  #proj-six > img {
+    height: 17.2vw;
+    width: 32.3vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rest-cards {
+    display: none;
+  }
 }
