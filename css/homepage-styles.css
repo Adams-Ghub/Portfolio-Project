@@ -369,6 +369,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0;
+  list-style: none;
 }
 
 a > #icon-footer {
@@ -648,7 +650,7 @@ a > #icon-footer {
     height: 1.7vw;
   }
 
-  .footer-social-links > a > img {
+  .footer-social-links > li > a > img {
     width: 1.7vw;
     height: 1.7vw;
   }
@@ -889,8 +891,6 @@ a > #icon-footer {
   #get-cv-btn > span {
     font-size: 3vw;
   }
-
-  /* skill set section */
 
   .skills-set-container {
     display: grid;
