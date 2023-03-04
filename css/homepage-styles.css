@@ -78,6 +78,18 @@ body {
   line-height: 100%;
   color: #1a2236;
   margin-bottom: 22px;
+  animation-name: anims;
+  animation-duration: 1s;
+}
+
+@keyframes anims {
+  from {
+    color: #dddfe6;
+  }
+
+  to {
+    color: #1a2236;
+  }
 }
 
 .project-container > img {
