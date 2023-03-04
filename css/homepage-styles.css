@@ -24,6 +24,8 @@ body {
   border-width: 1px;
   border-color: #fff;
   background-color: #fff;
+  transition-property: all;
+  transition-duration: 500ms;
 }
 
 .header-container {
