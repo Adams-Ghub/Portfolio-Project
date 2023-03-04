@@ -81,13 +81,15 @@ body {
 }
 
 @keyframes anims {
-  from{ 
-   color: #dddfe6;
+  from {
+    color: #dddfe6;
   }
-  to{
+
+  to {
     color: #1a2236;
   }
 }
+
 .project-container > img {
   margin: 0;
   padding: 0;
