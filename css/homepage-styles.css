@@ -24,6 +24,8 @@ body {
   border-width: 1px;
   border-color: #fff;
   background-color: #fff;
+  transition-property: all;
+  transition-duration: 500ms;
 }
 
 .header-container {
@@ -76,6 +78,18 @@ body {
   line-height: 100%;
   color: #1a2236;
   margin-bottom: 22px;
+  animation-name: anims;
+  animation-duration: 1s;
+}
+
+@keyframes anims {
+  from {
+    color: #dddfe6;
+  }
+
+  to {
+    color: #1a2236;
+  }
 }
 
 .project-container > img {
