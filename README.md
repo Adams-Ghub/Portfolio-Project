@@ -47,6 +47,9 @@
 - **Navbar**
   It has an intuitive navbar that makes it easy to move around the website.
 
+- **Responsivess**
+  It is responsive to all devices including mobile and desktop.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
