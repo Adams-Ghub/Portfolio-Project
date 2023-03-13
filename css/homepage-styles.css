@@ -217,6 +217,22 @@ body {
   color: #1a2236;
 }
 
+.menu > li > a {
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 1.6vw;
+  color: #000;
+}
+
+.menu > li {
+  list-style: none;
+  align-content: center;
+  margin: 15px 0;
+}
+
 .project-bottom-section > a:hover {
   background-color: transparent;
   border-style: solid;
@@ -370,6 +386,14 @@ body {
   margin-left: 10px;
 }
 
+.popup > img {
+  width: 100vw;
+}
+
+.close-btn-bg-img > img {
+  width: 280px;
+}
+
 #proj-one > img,
 #proj-two > img,
 #proj-three > img,
@@ -459,6 +483,44 @@ a > #icon-footer {
   margin-top: -px;
 }
 
+.popup {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  width: 100vw;
+  padding-bottom: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 30px 0 82px 0;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  align-self: flex-start;
+  margin: 24px 20px 0 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.close-btn-bg-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width: 767px) {
   .desktop-navigation {
     display: none;
@@ -527,6 +589,12 @@ a > #icon-footer {
   .info-container > h1 {
     font-family: "Playfair Display", serif;
     font-size: 110px;
+  }
+
+  .menu > li {
+    list-style: none;
+    align-content: center;
+    margin: 15px 0;
   }
 
   .desktop-navigation > ul > li {

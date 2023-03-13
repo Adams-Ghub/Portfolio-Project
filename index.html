@@ -25,7 +25,7 @@
     <header class="header-container">
       <img src="./images/image_geometry_1.png" alt="geometry image" />
 
-      <a href="#">
+      <a onclick="openPopup()" href="#" id="menu-open">
         <i class="material-icons">menu</i>
       </a>
 
@@ -38,8 +38,16 @@
         </ul>
       </nav>
     </header>
+    <section class="popup hidden" id="menu-popup">
+      <div class="close-btn-bg-img">
+        <img src="./images/image_geometry_menu_1.png" alt="" />
+        <button onclick="openPopup()" class="close-btn">
+          <img src="./images/Union.png" alt="" />
+        </button>
+      </div>
+    </section>
 
-    <section class="headline">
+    <section id="headline" class="headline">
       <div class="info-container">
         <h1 class="title-text">Adams <br />Bamfo</h1>
         <div>
@@ -66,7 +74,7 @@
         id="desktop-image"
       />
     </section>
-    <section class="work-section">
+    <section id="portfolio" class="work-section">
       <h2>Projects</h2>
       <img
         src="./images/image_dots.png"
@@ -200,7 +208,7 @@
       </div>
     </section>
 
-    <section class="about-section">
+    <section id="about" class="about-section">
       <div class="about-info-container" id="about-info-box-id">
         <h2 class="title-text" id="about-text">About</h2>
         <p class="descriptive-text">
@@ -262,7 +270,7 @@
         />
       </div>
     </section>
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
       <img
         src="./images/image_geometry_1.png"
         alt="geometry-image-one"
@@ -274,7 +282,7 @@
         id="geometry-image-six"
       />
       <div class="contact-form-info-container">
-        <h2 class="title-text">Get started</h2>
+        <h2 id="get-started" class="title-text">Get started</h2>
         <p class="descriptive-text" id="contact-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -333,28 +341,35 @@
       </a>
       <ul class="footer-social-links">
         <li>
-          <a href="#"
+          <a href="https://stackoverflow.com/users/19997894/adams-bamfo"
             ><img src="./images/ic_stackoverflow.png" alt="stackoverflow-img"
           /></a>
         </li>
         <li>
-          <a href="#"><img src="./images/ic_github.png" alt="github-img" /></a>
+          <a href="https://github.com/Adams-Ghub"
+            ><img src="./images/ic_github.png" alt="github-img"
+          /></a>
         </li>
         <li>
-          <a href="#"
+          <a href="https://twitter.com/bamfoaf"
             ><img src="./images/ic_twitter.png" alt="twitter-img"
           /></a>
         </li>
         <li>
-          <a href="#"><img src="./images/linkedin.png" alt="linkedin-img" /></a>
+          <a href="https://www.linkedin.com/in/adams-bamfo-3aaa3011b/"
+            ><img src="./images/linkedin.png" alt="linkedin-img"
+          /></a>
         </li>
         <li>
-          <a href="#"><img src="./images/ic_medium.png" alt="medium-img" /></a>
+          <a href="https://medium.com/@bamfoadamsf"
+            ><img src="./images/ic_medium.png" alt="medium-img"
+          /></a>
         </li>
         <li>
           <a href="#"><i class="fa fa-angellist" id="icon-footer"></i></a>
         </li>
       </ul>
     </footer>
+    <script type="text/javascript" src="./js/script.js"></script>
   </body>
 </html>
