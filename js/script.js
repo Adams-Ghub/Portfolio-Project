@@ -114,6 +114,7 @@ const Data = [
 
 ];
 
+/* eslint-disable no-unused-vars */
 function togglePopup() {
   document.querySelector('.major-box').classList.toggle('hidden');
   document.location.reload();
