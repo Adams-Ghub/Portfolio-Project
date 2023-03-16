@@ -170,7 +170,7 @@ function showPreviousProject(id) {
   if (id === 0) {
     document.getElementsByClassName('prev-btn').disable = true;
   } else if (id < Data.length && id > 0) {
-    id=id-1;
+    id -= 1;
     showPopup(id);
   }
 }
@@ -179,7 +179,7 @@ function showNextProject(id) {
   if (id === Data.length) {
     document.getElementsByClassName('next-btn').disable = true;
   } else if (id < Data.length && id >= 0) {
-    id=id+1;
+    id += 1;
     showPopup(id);
   }
 }
