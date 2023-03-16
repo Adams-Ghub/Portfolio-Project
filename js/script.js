@@ -166,6 +166,7 @@ function showPopup(id) {
   hideFloatingImg();
 }
 
+/* eslint-disable no-unused-vars */
 function showPreviousProject(id) {
   if (id === 0) {
     document.getElementsByClassName('prev-btn').disable = true;
@@ -175,6 +176,7 @@ function showPreviousProject(id) {
   }
 }
 
+/* eslint-disable no-unused-vars */
 function showNextProject(id) {
   if (id === Data.length) {
     document.getElementsByClassName('next-btn').disable = true;
@@ -183,7 +185,10 @@ function showNextProject(id) {
     showPopup(id);
   }
 }
+
+/* eslint-disable no-unused-vars */
 function displayProjects() {
+  /* eslint-disable no-plusplus */
   for (let i = 0; i < Data.length; i++) {
     document.querySelector(Data[i].html_id).innerHTML = `<img src="${Data[i].image}" alt="${Data[i].alt}" />
     <div class="project-bottom-section" id="${Data[i].btm_section_id}">
