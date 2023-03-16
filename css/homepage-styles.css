@@ -309,13 +309,13 @@ body {
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 80%;
   border-style: solid;
   border-width: 1px;
   border-color: #1a2236;
   color: #1a2236;
-  padding: 6px 10px;
+  padding: 7px 11px;
 }
 
 .skills-title-list > ul > li,
@@ -574,6 +574,7 @@ a > #icon-footer {
   flex-direction: column;
   align-self: center;
   zoom: 50%;
+  border: 1px solid lightgrey;
 }
 
 .popup-main-box > button.popup-close-btn {
@@ -757,13 +758,13 @@ a > #icon-footer {
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 10px;
+    font-size: 68px;
     line-height: 80%;
     border-style: solid;
     border-width: 1px;
     border-color: #1a2236;
     color: #1a2236;
-    padding: 6px 10px;
+    padding: 10px 22px;
   }
 
   .desktop-navigation > ul > li {
@@ -912,7 +913,7 @@ a > #icon-footer {
   }
 
   button.popup-close-btn > img {
-    width: 2vw;
+    width: 5vw;
   }
 
   .footer-social-links > li > a > img {
@@ -1386,7 +1387,7 @@ a > #icon-footer {
   }
 
   .live-btn {
-    width: 30vw;
+    width: 35vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1405,7 +1406,7 @@ a > #icon-footer {
   }
 
   .source-btn {
-    width: 30vw;
+    width: 42vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1439,7 +1440,7 @@ a > #icon-footer {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 4vw;
     text-decoration: none;
     line-height: 27px;
     color: #1a2236;
@@ -1455,7 +1456,7 @@ a > #icon-footer {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 4vw;
     text-decoration: none;
     line-height: 27px;
     color: #1a2236;

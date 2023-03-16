@@ -183,3 +183,20 @@ function showNextProject(id) {
     showPopup(id);
   }
 }
+function displayProjects() {
+  for (let i = 0; i < Data.length; i++) {
+    document.querySelector(Data[i].html_id).innerHTML = `<img src="${Data[i].image}" alt="${Data[i].alt}" />
+    <div class="project-bottom-section" id="${Data[i].btm_section_id}">
+      <h3>${Data[i].title}</h3>
+      <ul class="languages-container">
+        <li>${Data[i].technologies.html_css}</li>
+        <li id="ruby-text">${Data[i].technologies.ruby} </li>
+        <li>${Data[i].technologies.js}</li>
+      </ul>
+      <a href="#" onclick = "showPopup(${i})">
+        see this project
+        <i class="material-icons">arrow_forward</i>
+      </a>
+    </div>`;
+  }
+}
