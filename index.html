@@ -21,7 +21,7 @@
     <title>homepage</title>
   </head>
 
-  <body>
+  <body onload="displayProjects()">
     <header class="header-container">
       <img src="./images/image_geometry_1.png" alt="geometry image" />
 
@@ -46,7 +46,7 @@
         </button>
       </div>
       <ul class="menu">
-      <li><a href="#headline" onclick="openPopup()">Hello</a></li>
+        <li><a href="#headline" onclick="openPopup()">Hello</a></li>
         <li><a href="#portfolio" onclick="openPopup()">Portfolio</a></li>
         <li><a href="#about" onclick="openPopup()">About</a></li>
         <li><a href="#contact" onclick="openPopup()">Contact</a></li>
@@ -81,6 +81,7 @@
         id="desktop-image"
       />
     </section>
+
     <section id="portfolio" class="work-section">
       <h2>Projects</h2>
       <img
@@ -89,21 +90,7 @@
         id="dot-matrix-work-section"
       />
 
-      <div class="project-container" id="proj-one">
-        <img src="./images/project-one.jpg" alt="project-one-image" />
-        <div class="project-bottom-section" id="bottom-sec-proj-one">
-          <h3>Project name goes here</h3>
-          <ul class="languages-container">
-            <li>HTML/CSS</li>
-            <li id="ruby-text">Ruby on Rails</li>
-            <li>JavaScript</li>
-          </ul>
-          <a href="#">
-            see this project
-            <i class="material-icons">arrow_forward</i>
-          </a>
-        </div>
-      </div>
+      <div class="project-container" id="proj-one"></div>
 
       <img
         src="./images/geometry-image-2.png"
@@ -111,21 +98,7 @@
         id="geometry-image-two"
       />
 
-      <div class="project-container" id="proj-two">
-        <img src="./images/project-two.jpg" alt="project-two-image" />
-        <div class="project-bottom-section" id="bottom-sec-proj-two">
-          <h3>Project name goes here</h3>
-          <ul class="languages-container">
-            <li>HTML/CSS</li>
-            <li id="ruby-text">Ruby on Rails</li>
-            <li class="js">JavaScript</li>
-          </ul>
-          <a href="#">
-            see this project
-            <i class="material-icons">arrow_forward</i>
-          </a>
-        </div>
-      </div>
+      <div class="project-container" id="proj-two"></div>
 
       <img
         src="./images/image-geometry_3.png"
@@ -133,21 +106,7 @@
         id="geometry-image-three"
       />
 
-      <div class="project-container" id="proj-three">
-        <img src="./images/project-three.jpg" alt="project-one-image" />
-        <div class="project-bottom-section" id="bottom-sec-proj-three">
-          <h3>Project name goes here</h3>
-          <ul class="languages-container">
-            <li>HTML/CSS</li>
-            <li id="ruby-text">Ruby on Rails</li>
-            <li class="js">JavaScript</li>
-          </ul>
-          <a href="#">
-            see this project
-            <i class="material-icons">arrow_forward</i>
-          </a>
-        </div>
-      </div>
+      <div class="project-container" id="proj-three"></div>
 
       <div class="geometry-images-four-five">
         <img
@@ -162,57 +121,11 @@
         />
       </div>
 
-      <div class="project-container" id="proj-four">
-        <img src="./images/project-four.jpg" alt="project-one-image" />
-        <div class="project-bottom-section" id="bottom-sec-proj-four">
-          <h3>Project name goes here</h3>
-          <ul class="languages-container">
-            <li>HTML/CSS</li>
-            <li id="ruby-text">Ruby on Rails</li>
-            <li class="js">JavaScript</li>
-          </ul>
-          <a href="#">
-            see this project
-            <i class="material-icons">arrow_forward</i>
-          </a>
-        </div>
-      </div>
+      <div class="project-container" id="proj-four"></div>
 
-      <div class="project-container" id="proj-five">
-        <img src="./images/project-five.jpg" alt="project-five-image" />
-        <div class="project-bottom-section" id="bottom-sec-proj-five">
-          <h3>Project name goes here</h3>
-          <ul class="languages-container">
-            <li>HTML/CSS</li>
-            <li id="ruby-text">Ruby on Rails</li>
-            <li class="js">JavaScript</li>
-          </ul>
-          <a href="#">
-            see this project
-            <i class="material-icons">arrow_forward</i>
-          </a>
-        </div>
-      </div>
+      <div class="project-container" id="proj-five"></div>
 
-      <div class="project-container" id="proj-six">
-        <img
-          src="./images/project-six.jpg"
-          alt="project-one-image"
-          id="proj-six-img"
-        />
-        <div class="project-bottom-section" id="bottom-sec-proj-six">
-          <h3>Project name goes here</h3>
-          <ul class="languages-container">
-            <li>HTML/CSS</li>
-            <li id="ruby-text">Ruby on Rails</li>
-            <li class="js">JavaScript</li>
-          </ul>
-          <a href="#">
-            see this project
-            <i class="material-icons">arrow_forward</i>
-          </a>
-        </div>
-      </div>
+      <div class="project-container" id="proj-six"></div>
     </section>
 
     <section id="about" class="about-section">
@@ -241,7 +154,7 @@
               <li>CSS</li>
             </ul>
           </div>
-          <img src="./images/ic_languages_mob.png" alt="" />
+          <img class="about-img1" src="./images/ic_languages_mob.png" alt="" />
         </div>
         <div class="framework-container">
           <div class="framework-title-list">
@@ -254,7 +167,12 @@
               <li>Selenium</li>
             </ul>
           </div>
-          <img src="./images/diamond-shape.png" alt="" srcset="" />
+          <img
+            class="about-img2"
+            src="./images/diamond-shape.png"
+            alt=""
+            srcset=""
+          />
         </div>
 
         <div class="skills-container">
@@ -268,7 +186,7 @@
               <li>Terminal</li>
             </ul>
           </div>
-          <img src="./images/ic_skills.png" alt="" />
+          <img class="about-img3" src="./images/ic_skills.png" alt="" />
         </div>
         <img
           src="./images/image_dots_with_teal.png"
