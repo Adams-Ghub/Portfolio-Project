@@ -218,6 +218,7 @@
           action="https://formspree.io/f/mqkobewg"
           method="post"
           class="contact-form"
+          id="form"
         >
           <div class="name-email-text-label-box">
             <div class="input-and-text-container" id="name-label-input-id">
@@ -250,8 +251,14 @@
             maxlength="500"
             required
           ></textarea>
-
-          <button class="primary-button">start collaboration</button>
+          <p id="error-msg"></p>
+          <button
+            type="submit"
+            onclick="validateEmail()"
+            class="primary-button"
+          >
+            start collaboration
+          </button>
         </form>
       </div>
       <img

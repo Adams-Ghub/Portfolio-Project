@@ -13,6 +13,7 @@
     "rules": {
       "no-unused-vars":"off",
       "no-plusplus":"off",
+      "no-undef":"off",
       "no-shadow": "off",
       "no-param-reassign": "off",
       "eol-last": "off",

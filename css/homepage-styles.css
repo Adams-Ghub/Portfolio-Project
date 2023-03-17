@@ -512,6 +512,15 @@ a > #icon-footer {
   margin-top: 0;
 }
 
+#error-msg {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #1a2236;
+}
+
 .geometry-image-one {
   width: 111px;
   margin-top: -px;

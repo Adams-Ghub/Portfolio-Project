@@ -206,3 +206,12 @@ function displayProjects() {
     </div>`;
   }
 }
+
+function validateEmail() {
+  document.querySelector('#form').addEventListener('submit', (event) => {
+    event.preventDefault();
+    form = document.querySelector('#form');
+    const message = document.querySelector('#error-msg');
+    const inputEmail = document.querySelector('#email').value;
+  });
+}
