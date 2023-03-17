@@ -206,3 +206,18 @@ function displayProjects() {
     </div>`;
   }
 }
+
+function validateEmail() {
+  document.querySelector('#form').addEventListener('submit', (event) => {
+    event.preventDefault();
+    /* eslint-disable no-undef */
+    form = document.querySelector('#form');
+    const message = document.querySelector('#error-msg');
+    const inputEmail = document.querySelector('#email').value;
+    if (inputEmail.match(/[A-Z]/)) {
+      message.innerHTML = 'Invalid email. Email address should be in lowercase!';
+    } else {
+      form.submit();
+    }
+  });
+}
