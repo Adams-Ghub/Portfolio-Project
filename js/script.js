@@ -219,6 +219,7 @@ function storeData() {
   };
   window.localStorage.setItem('info', JSON.stringify(info));
 }
+
 form.addEventListener('input', storeData);
 const savedData = JSON.parse(localStorage.getItem('info'));
 window.addEventListener('load', () => {
@@ -229,11 +230,12 @@ window.addEventListener('load', () => {
   }
   return true;
 });
+
 function validateEmail() {
   document.querySelector('#form').addEventListener('submit', (event) => {
     event.preventDefault();
     /* eslint-disable no-undef */
-    form = document.querySelector('#form');
+    const form = document.querySelector('#form');
     const message = document.querySelector('#error-msg');
     const inputEmail = document.querySelector('#email').value;
     if (inputEmail.match(/[A-Z]/)) {
