@@ -219,7 +219,16 @@ function storeData() {
   };
   window.localStorage.setItem('info', JSON.stringify(info));
 }
-
+form.addEventListener('input', storeData);
+const savedData = JSON.parse(localStorage.getItem('info'));
+window.addEventListener('load', () => {
+  if (savedData) {
+    uName.value = savedData.name;
+    email.value = savedData.email;
+    infoMsg.value = savedData.information;
+  }
+  return true;
+});
 function validateEmail() {
   document.querySelector('#form').addEventListener('submit', (event) => {
     event.preventDefault();
