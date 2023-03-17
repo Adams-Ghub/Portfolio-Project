@@ -207,6 +207,19 @@ function displayProjects() {
   }
 }
 
+const infoMsg = document.getElementById('message');
+const uName = document.getElementById('name');
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+function storeData() {
+  const info = {
+    name: uName.value,
+    email: email.value,
+    information: infoMsg.value,
+  };
+  window.localStorage.setItem('info', JSON.stringify(info));
+}
+
 function validateEmail() {
   document.querySelector('#form').addEventListener('submit', (event) => {
     event.preventDefault();
