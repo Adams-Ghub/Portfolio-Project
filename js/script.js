@@ -19,7 +19,7 @@ const Data = [
   {
     Id: 0,
     title: 'Project name goes here',
-    html_id: '#proj-one',
+    html_ids: '#proj-one',
     btm_section_id: 'bottom-sec-proj-one',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/project-one.jpg',
@@ -50,10 +50,10 @@ const Data = [
   }, {
     Id: 2,
     title: 'Project name goes here',
-    html_id: '#proj-three',
+    html_ids: '#proj-three',
     btm_section_id: 'bottom-sec-proj-three',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/project-three.jpg',
+    images: './images/project-three.jpg',
     alt: 'project-three-image',
     technologies: {
       html_css: 'HTML/CSS',
@@ -82,7 +82,7 @@ const Data = [
   {
     Id: 4,
     title: 'Project name goes here',
-    html_id: '#proj-five',
+    html_ids: '#proj-five',
     btm_section_id: 'bottom-sec-proj-five',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/project-five.jpg',
@@ -101,7 +101,7 @@ const Data = [
     html_id: '#proj-six',
     btm_section_id: 'bottom-sec-proj-six',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/project-six.jpg',
+    images: './images/project-six.jpg',
     alt: 'project-five-image',
     technologies: {
       html_css: 'HTML/CSS',
