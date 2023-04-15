@@ -18,10 +18,10 @@ function hideFloatingImg() {
 const Data = [
   {
     Id: 0,
-    title: 'Project name goes here',
+    title: 'Tech & Health Summit',
     html_id: '#proj-one',
     btm_section_id: 'bottom-sec-proj-one',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    description: 'Summit Website is a personal project about a summit entitled National Technology and Health Summit. I developed this project as away to apply my knowledge and skills I have acquired to build a conference or summit website.',
     image: './images/project-one.jpg',
     alt: 'project-one-image',
     technologies: {
@@ -29,8 +29,8 @@ const Data = [
       js: 'JavaScript',
       ruby: 'Ruby on Rails',
     },
-    source: '#',
-    live: '#',
+    source: 'https://github.com/Adams-Ghub/summit-website',
+    live: 'https://adams-ghub.github.io/summit-website/',
   },
   {
     Id: 1,
@@ -142,11 +142,11 @@ function showPopup(id) {
   <p class="popup-description">${Data[id].description}</p>
 
   <div class="live-source-box">
-  <a class="live-btn" href="#">
+  <a class="live-btn" href=${Data[id].live} target = "_blank">
     See live
     <img src="./images/see-link-icn.png" alt="" />
   </a>
-  <a class="source-btn" href="#">
+  <a class="source-btn" href=${Data[id].source} target = "_blank">
     See source
     <img src="./images/see-sourceI-icn.png" alt="" />
   </a>
