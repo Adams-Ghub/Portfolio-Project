@@ -30,19 +30,21 @@
       </a>
 
       <nav class="desktop-navigation">
+        <img src="./images/Proj_logo.png"  alt="adams-logo" class="logo"/>
         <ul>
-          <li><a href="#">Hello</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#headline">Hello</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <section class="popup hidden" id="menu-popup">
+      <div class="inner-container">
       <div class="close-btn-bg-img">
-        <img src="./images/image_geometry_menu_1.png" alt="" />
+        <img src="./images/image_geometry_menu_1.png" alt="mobile-menu-popup-image" />
         <button onclick="openPopup()" class="close-btn">
-          <img src="./images/Union.png" alt="" />
+          <img src="./images/Union.png" alt="close-button-icon" />
         </button>
       </div>
       <ul class="menu">
@@ -51,32 +53,33 @@
         <li><a href="#about" onclick="openPopup()">About</a></li>
         <li><a href="#contact" onclick="openPopup()">Contact</a></li>
       </ul>
-      <img src="./images/image_geometry_menu_2.png" alt="" />
+      <img src="./images/image_geometry_menu_2.png" alt="first-mobile-geometry-image" />
+    </div>
     </section>
 
     <section id="headline" class="headline">
       <div class="info-container">
-        <h1 class="title-text">Adams <br />Bamfo</h1>
+        <h1 class="title-text">I am <br />Adams</h1>
         <div>
           <p id="descriptive-text">
-            Hello! I am a software developer! I can help you build a product,
-            feature or website. Take a look at my work.
+            A Full-Stack Developer passionate about crafting digital solutions. With a 
+            keen eye for detail and a love for clean code, I bring ideas to life through web and software development.
           </p>
           <p id="descriptive-text">
             If you like what you see and have a project you need coded, don’t
             hesitate to contact me.
           </p>
         </div>
-        <button class="primary-button">start collaboration</button>
+        <a href="#contact"class="primary-button">start collaboration</a>
       </div>
       <img
         id="mobile-image-section-one"
         src="./images/section-one-mobile-img.jpg"
         alt="headline-image"
       />
-      <img src="./images/image_dots.png" alt="" id="dot-matrix" />
+      <img src="./images/image_dots.png" alt="mobile-dot-matix-image" id="dot-matrix" />
       <img
-        src="./images/desktop-img.jpg"
+        src="./images/desktop-img.png"
         alt="desktop-image-headline"
         id="desktop-image"
       />
@@ -132,12 +135,18 @@
       <div class="about-info-container" id="about-info-box-id">
         <h2 class="title-text" id="about-text">About</h2>
         <p class="descriptive-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ea eiusmod
+          I am a passionate software engineer with a proven track record in designing, 
+          developing, testing, and deploying web and mobile applications.  <br />    
+
+          Recently I enrolled in a software development school, Microverse which has 1% chance of admission and 
+          worked remotely 40 hours a week with other developers.<br />
+I have use technologies including JavasScript, Ruby on Rails, PostgreSQL, React, React Native and others in building over 20 projects. 
+I am currently working with a team on a waste management mobile application.<br/>
+
+I am eager to leverage my skills, experience, and unwavering dedication to 
+          problem-solving to contribute to the success of forward-thinking institutions.
         </p>
-        <a href="#" id="get-cv-btn"
+        <a href="https://drive.google.com/file/d/1w2yYCadL_bJs722xUBriE-7k2zXz2dqZ/view?usp=sharing" target="_blank" rel="noopener noreferrer" id="get-cv-btn"
           >Get my cv<span class="material-symbols-sharp get-cv-icon">
             download
           </span></a
@@ -154,23 +163,23 @@
               <li>CSS</li>
             </ul>
           </div>
-          <img class="about-img1" src="./images/ic_languages_mob.png" alt="" />
+          <img class="about-img1" src="./images/ic_languages_mob.png" alt="languages-image" />
         </div>
         <div class="framework-container">
           <div class="framework-title-list">
             <p>Frameworks</p>
             <ul>
-              <li>Bootstrap</li>
+              <li>React</li>
+              <li>React Native</li>
               <li>Ruby on rails</li>
+              <li>Bootstrap</li>
               <li>RSpec</li>
-              <li>Capibara</li>
-              <li>Selenium</li>
             </ul>
           </div>
           <img
             class="about-img2"
             src="./images/diamond-shape.png"
-            alt=""
+            alt="frameworks-image"
             srcset=""
           />
         </div>
@@ -179,14 +188,14 @@
           <div class="skills-title-list">
             <p>Skills</p>
             <ul>
-              <li>Codekits</li>
+              <li>Figma</li>
               <li>Codepen</li>
               <li>GitHub</li>
               <li>GitLab</li>
               <li>Terminal</li>
             </ul>
           </div>
-          <img class="about-img3" src="./images/ic_skills.png" alt="" />
+          <img class="about-img3" src="./images/ic_skills.png" alt="skills-image" />
         </div>
         <img
           src="./images/image_dots_with_teal.png"
@@ -209,10 +218,9 @@
       <div class="contact-form-info-container">
         <h2 id="get-started" class="title-text">Get started</h2>
         <p class="descriptive-text" id="contact-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Get in touch now to start our creative journey together. 
+          I'm excited to hear about your project and 
+          how I can help bring your vision to life.
         </p>
         <form
           action="https://formspree.io/f/mqkobewg"
@@ -268,8 +276,8 @@
       />
     </section>
     <footer class="footer-section">
-      <a class="get-resume-btn" href="#">
-        Get my Resume <img src="./images/ic_link_teal.png" alt="" />
+      <a class="get-resume-btn" href="https://drive.google.com/file/d/1w2yYCadL_bJs722xUBriE-7k2zXz2dqZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        Get my Resume <img src="./images/ic_link_teal.png" alt="get-resume-button-icon" />
       </a>
       <ul class="footer-social-links">
         <li>
@@ -298,7 +306,7 @@
           /></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-angellist" id="icon-footer"></i></a>
+          <a href="https://wellfound.com/u/adams-bamfo"><i class="fa fa-angellist" id="icon-footer"></i></a>
         </li>
       </ul>
     </footer>
