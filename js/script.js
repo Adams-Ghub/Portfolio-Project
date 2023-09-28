@@ -23,7 +23,7 @@ const Data = [
     btm_section_id: 'bottom-sec-proj-one',
     description:
       'Discover my Bookstore project, a dynamic and user-friendly React-based web application designed for book enthusiasts and avid readers. This project seamlessly combines an intuitive user interface with powerful backend functionality, allowing users to effortlessly manage their personal library.',
-    image: './images/project-one.PNG',
+    image: './images/project-one.png',
     alt: 'project-one-image',
     technologies: ['HTML/CSS', 'JavaScript', 'React'],
     source: 'https://github.com/Adams-Ghub/bookstore',
@@ -36,11 +36,11 @@ const Data = [
     btm_section_id: 'bottom-sec-proj-two',
     description:
       'Leaderboard is a personal project that showcases my proficiency in cutting-edge web development technologies such as ES6, Webpack, and API integration. It\'s designed to provide users with a seamless experience for adding and displaying scores for players, making it a great tool for tracking and visualizing progress in various activities and competitions.',
-    image: './images/project-two.PNG',
+    image: './images/project-two.png',
     alt: 'project-two-image',
     technologies: ['HTML/CSS', 'JavaScript', 'Webpack'],
-    source: '#',
-    live: '#',
+    source: 'https://github.com/Adams-Ghub/Leaderboard',
+    live: 'https://leader-board-01w0.onrender.com/',
   },
   {
     Id: 2,
@@ -75,7 +75,7 @@ const Data = [
     btm_section_id: 'bottom-sec-proj-five',
     description:
       'Elevate your financial management game with the Personal Budget Manager, a robust Ruby on Rails application designed to empower users to take control of their finances. This user-friendly platform simplifies budgeting and expense tracking, helping you achieve your financial goals effortlessly.',
-    image: './images/project-five.PNG',
+    image: './images/project-five.png',
     alt: 'project-five-image',
     technologies: ['PostgreSQL', 'ERB', 'Ruby on Rails'],
     source: 'https://github.com/Adams-Ghub/budget-app',
@@ -88,7 +88,7 @@ const Data = [
     btm_section_id: 'bottom-sec-proj-six',
     description:
       "Experience task management at its finest with the Webpack-Powered ToDo App. This meticulously crafted web application is designed to streamline your daily organization and productivity. Whether you're a busy professional or a meticulous planner, this app offers a seamless way to manage your tasks effectively.",
-    image: './images/project-six.PNG',
+    image: './images/project-six.png',
     alt: 'project-five-image',
     technologies: ['HTML/CSS', 'JavaScript', 'Webpack'],
     source: 'https://github.com/Adams-Ghub/To-do_list',
