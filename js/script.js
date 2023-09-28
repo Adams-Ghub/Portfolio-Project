@@ -23,7 +23,7 @@ const Data = [
     btm_section_id: 'bottom-sec-proj-one',
     description:
       'Discover my Bookstore project, a dynamic and user-friendly React-based web application designed for book enthusiasts and avid readers. This project seamlessly combines an intuitive user interface with powerful backend functionality, allowing users to effortlessly manage their personal library.',
-    image: './images/proj-one.png',
+    image: './images/proj-one.webp',
     alt: 'project-one-image',
     technologies: ['HTML/CSS', 'JavaScript', 'React'],
     source: 'https://github.com/Adams-Ghub/bookstore',
@@ -36,7 +36,7 @@ const Data = [
     btm_section_id: 'bottom-sec-proj-two',
     description:
       'Leaderboard is a personal project that showcases my proficiency in cutting-edge web development technologies such as ES6, Webpack, and API integration. It\'s designed to provide users with a seamless experience for adding and displaying scores for players, making it a great tool for tracking and visualizing progress in various activities and competitions.',
-    image: './images/proj-two.png',
+    image: './images/proj-two.webp',
     alt: 'project-two-image',
     technologies: ['HTML/CSS', 'JavaScript', 'Webpack'],
     source: 'https://github.com/Adams-Ghub/Leaderboard',
@@ -49,7 +49,7 @@ const Data = [
     btm_section_id: 'bottom-sec-proj-three',
     description:
       'Introducing Country Metrics, a React-based web application that serves as your personal pocketbook of information about countries from every corner of the globe. This project offers a simple yet powerful way to explore and discover essential details about countries, from official names and populations to coat of arms and flags.',
-    image: './images/proj-three.png',
+    image: './images/proj-three.webp',
     alt: 'project-three-image',
     technologies: ['HTML/CSS', 'JavaScript', 'React'],
     source: 'https://github.com/Adams-Ghub/country-metrics',
@@ -62,7 +62,7 @@ const Data = [
     btm_section_id: 'bottom-sec-proj-four',
     description:
       'Maths Magician is a dynamic React.js application consisting of three distinct pages: Home, Calculator, and Quotes. This versatile project aims to provide users with a multifaceted experience, offering random quotes fetched from an API, along with an intuitive calculator for mathematical calculations.',
-    image: './images/proj-four.png',
+    image: './images/proj-four.webp',
     alt: 'project-four-image',
     technologies: ['HTML/CSS', 'JavaScript', 'React'],
     source: 'https://github.com/Adams-Ghub/math-magician-website',
@@ -75,7 +75,7 @@ const Data = [
     btm_section_id: 'bottom-sec-proj-five',
     description:
       'Elevate your financial management game with the Personal Budget Manager, a robust Ruby on Rails application designed to empower users to take control of their finances. This user-friendly platform simplifies budgeting and expense tracking, helping you achieve your financial goals effortlessly.',
-    image: './images/proj-five.png',
+    image: './images/proj-five.webp',
     alt: 'project-five-image',
     technologies: ['PostgreSQL', 'ERB', 'Ruby on Rails'],
     source: 'https://github.com/Adams-Ghub/budget-app',
@@ -88,7 +88,7 @@ const Data = [
     btm_section_id: 'bottom-sec-proj-six',
     description:
       "Experience task management at its finest with the Webpack-Powered ToDo App. This meticulously crafted web application is designed to streamline your daily organization and productivity. Whether you're a busy professional or a meticulous planner, this app offers a seamless way to manage your tasks effectively.",
-    image: './images/proj-six.png',
+    image: './images/proj-six.webp',
     alt: 'project-five-image',
     technologies: ['HTML/CSS', 'JavaScript', 'Webpack'],
     source: 'https://github.com/Adams-Ghub/To-do_list',
