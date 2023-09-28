@@ -97,8 +97,6 @@ body {
   margin-bottom: 22px;
 }
 
-
-
 .project-container > img {
   margin: 0;
   padding: 0;
@@ -154,10 +152,10 @@ body {
   margin: 8px 0 0 0;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 10px;
   line-height: 15px;
-  color: #7d7c84;
+  color: #1a2236;
 }
 
 .skills-title-list,
@@ -465,9 +463,9 @@ body {
   width: 100%;
 }
 
-#mobile-image-section-one{
-  width:100%;
-  height:100%;
+#mobile-image-section-one {
+  width: 100%;
+  height: 100%;
 }
 
 .footer-social-links {
