@@ -7,6 +7,7 @@ body {
   overflow-x: hidden;
 }
 
+
 .project-bottom-section > a {
   text-decoration: none;
   display: flex;
@@ -101,6 +102,32 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* animation starts */
+#my-name {
+  position: relative;
+}
+#my-name span {
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  font-size: 13.3vw;
+  font-weight: 400;
+  line-height: 100%;
+  padding: 0;
+  margin-bottom: 22px;
+  color: #1a2236;
+  letter-spacing: -10px;
+  display: inline-block;
+  /* text-transform: uppercase; */
+  animation: flip 3s infinite;
+  animation-delay: calc(.1s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+/* animation ends */
 
 .work-section > h2 {
   font-family: 'Playfair Display', serif;
@@ -1642,4 +1669,32 @@ a > #icon-footer {
     background-color: #1a2236;
     color: #fff;
   }
+
+  /* animation Starts */
+  #my-name {
+    position: relative;
+  }
+  #my-name span {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-size: 7.6vw;
+    font-weight: 400;
+    line-height: 100%;
+    padding: 0;
+    margin-bottom: 22px;
+    color: #1a2236;
+    letter-spacing: -10px;
+    display: inline-block;
+    /* text-transform: uppercase; */
+    animation: flip 3s infinite;
+    animation-delay: calc(.1s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+
+  
 }

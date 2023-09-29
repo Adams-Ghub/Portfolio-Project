@@ -35,7 +35,7 @@ const Data = [
     html_id: '#proj-two',
     btm_section_id: 'bottom-sec-proj-two',
     description:
-      'Leaderboard is a personal project that showcases my proficiency in cutting-edge web development technologies such as ES6, Webpack, and API integration. It\'s designed to provide users with a seamless experience for adding and displaying scores for players, making it a great tool for tracking and visualizing progress in various activities and competitions.',
+      "Leaderboard is a personal project that showcases my proficiency in cutting-edge web development technologies such as ES6, Webpack, and API integration. It's designed to provide users with a seamless experience for adding and displaying scores for players, making it a great tool for tracking and visualizing progress in various activities and competitions.",
     image: './images/proj-two.webp',
     alt: 'project-two-image',
     technologies: ['HTML/CSS', 'JavaScript', 'Webpack'],
@@ -188,7 +188,7 @@ function displayProjects() {
   /* eslint-disable no-plusplus */
   for (let i = 0; i < Data.length; i++) {
     document.querySelector(
-      Data[i].html_id,
+      Data[i].html_id
     ).innerHTML = `<img src="${Data[i].image}" alt="${Data[i].alt}" />
     <div class="project-bottom-section" id="${Data[i].btm_section_id}">
       <h3>${Data[i].title}</h3>
@@ -238,9 +238,13 @@ function validateEmail() {
     const message = document.querySelector('#error-msg');
     const inputEmail = document.querySelector('#email').value;
     if (inputEmail.match(/[A-Z]/)) {
-      message.innerHTML = 'Invalid email. Email address should be in lowercase!';
+      message.innerHTML =
+        'Invalid email. Email address should be in lowercase!';
     } else {
       form.submit();
     }
   });
 }
+
+
+
